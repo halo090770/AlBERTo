@@ -13,6 +13,7 @@ from ekphrasis.dicts.emoticons import emoticons
 import numpy as np
 
 #Prepare and import BERT modules
+#il modulo si occupa di eseguire nuovi processi
 import subprocess
 subprocess.call(["git", "clone", "https://github.com/google-research/bert","bert_repo"])
 
